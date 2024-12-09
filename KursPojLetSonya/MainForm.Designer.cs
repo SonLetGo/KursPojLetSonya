@@ -171,19 +171,20 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1115, 47);
+            this.button5.Location = new System.Drawing.Point(1737, 142);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(25, 25);
             this.button5.TabIndex = 22;
             this.button5.Text = "?";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(1255, 591);
+            this.ClientSize = new System.Drawing.Size(1774, 591);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.VarGroupBox);
             this.Controls.Add(this.button1);

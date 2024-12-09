@@ -51,11 +51,7 @@ namespace KursPojLetSonya
 
             ThemeComboBox.Width = combobox1Width;
             ThemeComboBox.Height = controlHeight;
-            ThemeComboBox.Location = new Point((this.ClientSize.Width - ThemeComboBox.Width) / 3, (int)(this.ClientSize.Height * themeComboBoxNamePosFactor));
-
-            AdditionComboBox.Width = combobox2Width;
-            AdditionComboBox.Height = controlHeight;
-            AdditionComboBox.Location = new Point(1000, 161);
+            ThemeComboBox.Location = new Point((this.ClientSize.Width - ThemeComboBox.Width) / 2, (int)(this.ClientSize.Height * themeComboBoxNamePosFactor));
 
             OpenDocsButton.Width = buttonWidth;
             OpenDocsButton.Height = controlHeight;
@@ -158,6 +154,12 @@ namespace KursPojLetSonya
         {
             VariantiForm vf1 = new VariantiForm(3);
             vf1.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AboutBox1 aboutBox1 = new AboutBox1();
+            aboutBox1.ShowDialog();
         }
     }
 }
