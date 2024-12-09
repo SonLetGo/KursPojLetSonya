@@ -33,12 +33,12 @@
             this.VarButton1 = new System.Windows.Forms.Button();
             this.ToAvtButton = new System.Windows.Forms.Button();
             this.OpenDocsButton = new System.Windows.Forms.Button();
-            this.AdditionComboBox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.VarGroupBox = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.VarGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,18 +106,6 @@
             this.OpenDocsButton.UseVisualStyleBackColor = false;
             this.OpenDocsButton.Click += new System.EventHandler(this.OpenDocsButton_Click);
             // 
-            // AdditionComboBox
-            // 
-            this.AdditionComboBox.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdditionComboBox.FormattingEnabled = true;
-            this.AdditionComboBox.Items.AddRange(new object[] {
-            "Дополнительно",
-            "О приложении"});
-            this.AdditionComboBox.Location = new System.Drawing.Point(632, 78);
-            this.AdditionComboBox.Name = "AdditionComboBox";
-            this.AdditionComboBox.Size = new System.Drawing.Size(205, 43);
-            this.AdditionComboBox.TabIndex = 16;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.MediumPurple;
@@ -181,16 +169,25 @@
             this.VarGroupBox.TabIndex = 21;
             this.VarGroupBox.TabStop = false;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1115, 47);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(25, 25);
+            this.button5.TabIndex = 22;
+            this.button5.Text = "?";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1255, 591);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.VarGroupBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.VarButton1);
-            this.Controls.Add(this.AdditionComboBox);
             this.Controls.Add(this.OpenDocsButton);
             this.Controls.Add(this.ToAvtButton);
             this.Controls.Add(this.ThemeComboBox);
@@ -210,11 +207,11 @@
         private System.Windows.Forms.Button VarButton1;
         private System.Windows.Forms.Button ToAvtButton;
         private System.Windows.Forms.Button OpenDocsButton;
-        private System.Windows.Forms.ComboBox AdditionComboBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox VarGroupBox;
+        private System.Windows.Forms.Button button5;
     }
 }
